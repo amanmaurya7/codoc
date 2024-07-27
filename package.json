@@ -24,6 +24,7 @@
     "drizzle-orm": "^0.32.1",
     "framer-motion": "^11.3.18",
     "input-otp": "^1.2.4",
+    "jsm-editor": "^0.0.12",
     "lucia": "^3.2.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
