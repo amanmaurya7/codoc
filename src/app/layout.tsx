@@ -10,6 +10,7 @@ import {
 } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { cn } from "../lib/utils";
+import Provider from "./Provider";
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -46,7 +47,7 @@ export default function RootLayout({ children }) {
               <UserButton />
             </SignedIn>
           </header>
-          {children}
+          <Provider>{children}</Provider>
         </body>
       </html>
     </ClerkProvider>
