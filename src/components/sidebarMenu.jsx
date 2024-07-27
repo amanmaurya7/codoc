@@ -70,7 +70,7 @@ export const Logo = () => {
       href="#"
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
-      <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+    
       <motion.span
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -88,7 +88,7 @@ export const LogoIcon = () => {
       href="#"
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
-      <div className="h-5 w-6 bg-black dark:bg-white rounded-br-lg rounded-tr-sm rounded-tl-lg rounded-bl-sm flex-shrink-0" />
+     
     </Link>
   );
 };
@@ -99,7 +99,7 @@ const Home= ()=>{
     <div className='w-full bg-black p-5'>
       <h1 className='text-white text-2xl'>Documents</h1>
       <div className='flex flex-wrap'>
-        <button className='bg-blue-500 mt-5  rounded-md p-3 text-white'>Create New </button>
+        <button className='bg-slate-400 rounded-xl mt-3 p-3 text-white'>Create New Documents + </button>
       
       </div>
     </div>

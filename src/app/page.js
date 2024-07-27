@@ -1,5 +1,4 @@
 
-import { BentoDemo } from "@/components/bento";
 import { RetroGridDemo } from "@/components/Retro";
 import Image from "next/image";
 
@@ -8,7 +7,7 @@ export default function Home() {
     <main className="">
       <RetroGridDemo/>
       <br/>
-      <BentoDemo/>
+      
     </main>
   );
 }
