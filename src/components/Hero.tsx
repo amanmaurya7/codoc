@@ -70,7 +70,7 @@ const Hero = () => {
           <br />
           <br />
           <br />
-          <Button href="/pricing" white>
+          <Button href="/dashboard" white>
             Get started
           </Button>
           <br />
