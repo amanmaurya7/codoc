@@ -1,13 +1,7 @@
 import { Inter as FontSans } from "next/font/google";
 import "./globals.css";
 import React from "react";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
 import { cn } from "../lib/utils";
 import Provider from "./Provider";
@@ -39,14 +33,6 @@ export default function RootLayout({ children }) {
             fontSans.variable
           )}
         >
-          {/* <header>
-            <SignedOut>
-              <SignInButton />
-            </SignedOut>
-            <SignedIn>
-              <UserButton />
-            </SignedIn>
-          </header> */}
           <Provider>{children}</Provider>
         </body>
       </html>
