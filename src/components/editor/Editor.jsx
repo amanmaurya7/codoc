@@ -23,7 +23,7 @@ export function Editor() {
   const initialConfig = {
     namespace: 'Editor',
     nodes: [HeadingNode],
-    onError: (error: Error) => {
+    onError: (error) => {
       console.error(error);
       throw error;
     },
