@@ -2,7 +2,7 @@
 
 # Synchronize Your Thoughts, Elevate Your Documents
 
-CoDoc is a cutting-edge document collaboration tool designed to support real-time editing by millions of users simultaneously. Inspired by the capabilities of Google Docs but engineered for massive scalability and enhanced functionality, CoDoc aims to revolutionize how teams collaborate on documents.
+CoDoc is a collaborative document editor that allows multiple users to create, edit, and manage documents in real-time. The platform ensures secure user authentication, provides suggestion features, and supports saving documents in various formats for offline access.
 
 ## Key Features
 
