@@ -29,7 +29,6 @@
     "lucide-react": "^0.416.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.5",
-    "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.52.1",
@@ -40,8 +39,6 @@
   "devDependencies": {
     "@types/node": "20.14.12",
     "@types/react": "18.3.3",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
